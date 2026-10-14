@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login — D S@INT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="ind.css">
+</head>
+<body>
+  <div class="auth-card-wrap">
+      <div class="auth-card">
+        <div class="wolf">
+          <a href="ind.html" class="brand">
+            <i class="fa-brands fa-wolf-pack-battalion"></i>
+            <span class="brand"><b>D S@INT</b></span>
+          </a>
+        </div>
+        <h1>Login</h1>
+        <p>Login your account.</p>
+
+        <form action="#" method="post" novalidate>
+          <fieldset class="field">
+            <legend class="visually-hidden">Create a new account</legend>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your Email"
+                  autocomplete="email"
+                  required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter a password"
+                  autocomplete="new-password"
+                  minlength="8"
+                  required>
+              </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Login now</button>
+          </fieldset>
+        </form>
+
+        <p class="form-meta">Don't have an Account? <a href="ind-sign-up.html">Sign up</a></p>
+        <p class="form-meta"><a href="">Forgot Password?</a></p>
+      </div>
+    </div>
+
+</body>
+</html>
